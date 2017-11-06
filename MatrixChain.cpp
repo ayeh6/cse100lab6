@@ -25,7 +25,7 @@ void printoptimalparens(vector< vector<int> > &s, int i, int j)
 void MatrixChainOrder(int* p, int n)
 {
 	int m[n][n];
-	vector< vector<int> > s(n-1,vector<int>(n-1, 0));
+	vector< vector<int> > s(n,vector<int>(n, 0));
 	/*s.resize(n-1);
 	for(int i = 0; i < n-2; i++)
 	{
