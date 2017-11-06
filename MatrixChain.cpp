@@ -64,6 +64,7 @@ void MatrixChainOrder(int* p, int n)
 	}
 	cout << m[1][n-1] << endl;
 	printoptimalparens(s,1,n-1);
+	cout << endl;
 }
 
 
@@ -79,5 +80,4 @@ int main(int argc,char **argv)
 	}
 	//cout << "calling matrixchainorder" << endl;
 	MatrixChainOrder(p,n);
-	cout << endl;
 }
